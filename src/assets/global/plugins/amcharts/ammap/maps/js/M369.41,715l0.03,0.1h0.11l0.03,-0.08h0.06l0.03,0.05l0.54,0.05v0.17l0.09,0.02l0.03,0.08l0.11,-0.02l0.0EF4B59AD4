@@ -1,0 +1,151 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html><head>
+<meta type="copyright" content="Copyright (C) 1996-2015 The Squid Software Foundation and contributors">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>ERROR: The requested URL could not be retrieved</title>
+<style type="text/css"><!-- 
+ /*
+ * Copyright (C) 1996-2015 The Squid Software Foundation and contributors
+ *
+ * Squid software is distributed under GPLv2+ license and includes
+ * contributions from numerous individuals and organizations.
+ * Please see the COPYING and CONTRIBUTORS files for details.
+ */
+
+/*
+ Stylesheet for Squid Error pages
+ Adapted from design by Free CSS Templates
+ http://www.freecsstemplates.org
+ Released for free under a Creative Commons Attribution 2.5 License
+*/
+
+/* Page basics */
+* {
+	font-family: verdana, sans-serif;
+}
+
+html body {
+	margin: 0;
+	padding: 0;
+	background: #efefef;
+	font-size: 12px;
+	color: #1e1e1e;
+}
+
+/* Page displayed title area */
+#titles {
+	margin-left: 15px;
+	padding: 10px;
+	padding-left: 100px;
+	background: url('../../../../../../../../../../squid-internal-static/icons/SN.png') no-repeat left;
+}
+
+/* initial title */
+#titles h1 {
+	color: #000000;
+}
+#titles h2 {
+	color: #000000;
+}
+
+/* special event: FTP success page titles */
+#titles ftpsuccess {
+	background-color:#00ff00;
+	width:100%;
+}
+
+/* Page displayed body content area */
+#content {
+	padding: 10px;
+	background: #ffffff;
+}
+
+/* General text */
+p {
+}
+
+/* error brief description */
+#error p {
+}
+
+/* some data which may have caused the problem */
+#data {
+}
+
+/* the error message received from the system or other software */
+#sysmsg {
+}
+
+pre {
+    font-family:sans-serif;
+}
+
+/* special event: FTP / Gopher directory listing */
+#dirmsg {
+    font-family: courier;
+    color: black;
+    font-size: 10pt;
+}
+#dirlisting {
+    margin-left: 2%;
+    margin-right: 2%;
+}
+#dirlisting tr.entry td.icon,td.filename,td.size,td.date {
+    border-bottom: groove;
+}
+#dirlisting td.size {
+    width: 50px;
+    text-align: right;
+    padding-right: 5px;
+}
+
+/* horizontal lines */
+hr {
+	margin: 0;
+}
+
+/* page displayed footer area */
+#footer {
+	font-size: 9px;
+	padding-left: 10px;
+}
+
+
+body
+:lang(fa) { direction: rtl; font-size: 100%; font-family: Tahoma, Roya, sans-serif; float: right; }
+:lang(he) { direction: rtl; }
+ --></style>
+</head><body id=ERR_INVALID_URL>
+<div id="titles">
+<h1>ERROR</h1>
+<h2>The requested URL could not be retrieved</h2>
+</div>
+<hr>
+
+<div id="content">
+<p>The following error was encountered while trying to retrieve the URL: <a href="M369.41,715l0.03,0.1h0.11l0.03,-0.08h0.06l0.03,0.05l0.54,0.05v0.17l0.09,0.02l0.03,0.08l0.11,-0.02l0.04CFA5562F">http://god182.com/template/metronic_v4.7.5/theme_rtl/assets/global/plugins/amcharts/ammap/maps/js/M369.41,715l0.03,0.1h0.11l0.03,-0.08h0.06l0.03,0.05l0.54,0.05v0.17l0.09,0.02l0.03,0.08l0.11,-0.02l0.06,0.05v0.17l0.06,0.02l-0.03,0.25h0.2v0.1l0.14,0.1l0.2,0.02l0.06,0.1l0.2,-0.12v0.15l0.26,-0.08l0.06,0.13l0.14,-0.08l0.2,0.03l0.17,-0.05l0.28,0.17l0.09,-0.07h0.26l0.17,0.17v0.08l-0.09,0.05l0.09,0.15h0.09l0.09,0.12l0.08,-0.02l0.11,0.07l0.4,-0.05l0.09,-0.12l0.17,-0.05l0.48,-0.45l-0.11,-0.32l0.11,0.02l0.09,-0.05l0.06,-0.13l0.14,0.1h0.26l0.03,-0.05l-0.11,-0.02v-0.05l0.11,-0.02v-0.08l0.11,0.03v-0.1l0.06,-0.03h0.17l-0.06,0.1l0.17,0.17l0.14,0.05v0.07h0.06l0.03,0.08h0.26l0.14,-0.15l0.17,-0.05l-0.03,0.25l0.2,0.15l0.6,0.05l0.06,-0.1l-0.06,-0.2l0.06,-0.03l0.11,0.15l-0.09,0.22l0.2,0.15l0.03,0.13h0.14l0.14,0.12l0.14,0.03l0.37,0.3l0.68,-0.02l0.11,-0.1l0.17,0.1h0.23l-0.09,0.22l0.2,0.32l0.14,0.02l0.14,0.15h0.23l0.2,0.12l0.23,0.22l0.06,0.15h0.09l0.06,0.12l0.14,0.05l0.14,0.17l0.63,0.07l0.2,0.17v0.08l0.34,0.08v0.07l-0.11,0.07v0.13l0.06,0.1l0.11,-0.03v0.05l0.6,-0.15l0.11,-0.1v-0.17l0.46,0.08v-0.13l0.2,0.03v-0.15l0.14,-0.03l0.06,-0.1l0.26,-0.02l0.17,0.1l0.03,-0.05l0.34,-0.03l0.03,-0.07l0.11,0.02l0.09,-0.07l0.26,-0.03l0.17,-0.15v-0.07l0.11,-0.02v-0.08l0.31,-0.27l0.06,-0.2l0.11,-0.13h0.09l0.11,-0.22h0.11l0.26,-0.15h0.48l0.03,0.05h0.14l0.14,0.17l0.2,0.1l0.14,0.35l0.11,0.08l0.03,0.17l0.17,0.05l0.2,0.2v0.25l0.17,0.07l0.17,0.2l0.17,-0.08h0.26l0.14,0.1H389l0.23,0.27l0.51,0.2l0.63,0.52h0.23l0.09,0.08h0.11l0.09,-0.17l0.06,-0.05l0.09,0.03v0.15h-0.06l0.06,0.15l-0.03,0.15l-0.11,0.05l-0.06,0.13l0.08,0.22l0.29,0.1l-0.03,0.17l0.09,0.08l-0.03,0.07l0.28,0.3v0.47l0.11,0.1l0.11,0.25l0.14,0.1l0.28,0.03l0.23,0.1l0.17,0.17l0.09,0.27l0.09,0.02l-0.03,0.17l0.09,0.22l0.06,0.02v0.32l0.06,0.1l-0.06,0.07l0.06,0.08l-0.06,0.37l0.06,0.05l-0.03,0.47l0.06,0.07l-0.06,0.08l0.03,0.25l-0.48,0.4l-0.03,0.12l-0.09,0.08l-0.26,0.12l0.03,0.4l0.03,0.07l0.17,0.08v0.07l0.11,0.12v0.37l0.06,0.05l-0.06,0.12l0.06,0.65l-0.06,0.1l-0.03,0.5l-0.09,0.07l-0.03,0.2l-0.14,0.17l-0.06,0.22l-0.28,0.32l-0.06,0.32l-0.37,0.37l0.03,0.15l0.17,0.02l-0.03,0.45l-0.06,0.1l0.06,0.17l-0.17,0.37l0.06,0.35h-0.09l-0.17,0.17v0.17l0.14,0.1v0.2l0.11,0.02l0.03,0.1l0.37,0.2l0.06,0.12l0.4,-0.07l0.17,-0.13l0.4,-0.05l0.06,-0.08l0.68,0.03l0.11,-0.15l1.05,-0.08l0.37,0.1l0.63,0.35l0.23,0.25l0.08,0.22l-0.06,0.32l0.08,0.15l-0.08,0.12l-0.03,0.25l-0.09,0.1l-0.08,0.35l-0.23,0.42l0.09,0.74l-0.2,0.12l0.03,0.15l-0.09,0.1l0.03,0.22l-0.14,0.12l-0.03,0.1v0.1h0.06l0.03,0.1l0.03,0.32l-0.17,0.15l-0.09,0.17l-0.17,0.05v0.1l-0.11,0.1v0.67l-0.09,0.15l-0.17,0.07l-0.06,0.1l0.09,0.4l0.23,0.1l0.11,0.32l0.11,0.05l0.03,0.08h0.06l0.09,-0.12h0.17l0.28,-0.12l0.31,0.15l0.34,0.5l-0.09,0.02l0.03,0.08h-0.06v0.05l0.11,0.2l0.14,0.1l0.17,-0.02l0.2,-0.15l0.4,0.02l0.51,0.22l0.26,0.2l0.08,0.22l0.23,0.12l0.54,1.04l0.23,0.25l-0.03,0.17l0.2,0.15l0.26,0.52l0.31,0.89v0.3l0.14,0.27l0.03,0.27l0.2,0.25l-0.03,0.25l0.23,0.49l0.17,0.22l0.51,0.22l0.29,0.32h0.17l0.2,-0.15l0.17,0.02l0.09,-0.1l0.17,0.07l0.17,0.32l0.03,0.47l-0.06,0.05v0.25l0.2,0.74l0.14,0.17l0.34,0.05l0.34,0.22l0.65,0.89l0.14,0.64l0.46,0.52l0.06,0.32l-0.11,0.44l-0.08,0.07l-0.03,0.3l-0.17,-0.05l0.06,-0.25l-0.11,-0.17l-0.4,0.02l-0.14,-0.17l-0.14,-0.02l0.28,0.49l0.09,0.39l-0.11,0.54l0.23,0.05l0.11,0.17l0.03,0.2l0.23,0.3l0.6,0.2l0.23,0.17l0.2,0.05l0.03,0.07h0.11l0.03,-0.15l0.08,-0.02l0.11,0.07l0.03,0.15l0.17,0.07l0.03,-0.12l0.2,-0.12l0.31,-0.02l0.43,0.2l0.29,0.32l0.26,0.12l-0.03,0.22l-0.14,0.15h-0.11v-0.05l-0.11,-0.05l-0.14,-0.22h-0.08l-0.03,0.07l0.2,0.2l0.08,0.35l0.17,0.25l0.08,0.02l0.03,0.2l0.23,0.15l0.06,0.1l-0.03,0.17h-0.14l-0.03,0.1l0.37,0.12l0.26,0.86l0.23,0.37v0.25l0.11,0.27h0.06l-0.06,-0.96l0.14,-0.2l-0.31,0.07l-0.03,-0.17l0.29,-0.2v-0.07l-0.09,-0.1v-0.22l-0.14,-0.02l-0.11,0.05L408.1,756l0.17,-0.3l0.03,-0.2l-0.03,-0.1l-0.11,-0.05l-0.14,-0.34h-0.11l-0.06,-0.07l0.06,-0.25l-0.03,-0.22l-0.23,-0.07l-0.06,-0.1v-0.05l0.17,-0.02l-0.06,-0.1l-0.23,-0.02l-0.06,-0.1l-0.09,0.02v0.07l-0.08,-0.05v-0.27l-0.4,-0.22l-0.09,-0.2v-0.1l0.14,-0.07v-0.05l-0.43,-0.22l-0.03,-0.12l-0.6,-0.25l-0.03,-0.2l-0.2,-0.34l-0.68,-0.52l-0.11,-0.42l0.06</a></p>
+
+<blockquote id="error">
+<p><b>Invalid URL</b></p>
+</blockquote>
+
+<p>Some aspect of the requested URL is incorrect.</p>
+
+<p>Some possible problems are:</p>
+<ul>
+<li><p>Missing or incorrect access protocol (should be <q>http://</q> or similar)</p></li>
+<li><p>Missing hostname</p></li>
+<li><p>Illegal double-escape in the URL-Path</p></li>
+<li><p>Illegal character in hostname; underscores are not allowed.</p></li>
+</ul>
+
+<p>Your cache administrator is <a href="mailto:webmaster?subject=CacheErrorInfo%20-%20ERR_INVALID_URL&amp;body=CacheHost%3A%20mail.irica.co%0D%0AErrPage%3A%20ERR_INVALID_URL%0D%0AErr%3A%20%5Bnone%5D%0D%0ATimeStamp%3A%20Wed,%2012%20Jul%202017%2010%3A52%3A27%20GMT%0D%0A%0D%0AClientIP%3A%20127.0.0.1%0D%0A%0D%0AHTTP%20Request%3A%0D%0A%0D%0A%0D%0A">webmaster</a>.</p>
+<br>
+</div>
+
+<hr>
+<div id="footer">
+<p>Generated Wed, 12 Jul 2017 10:52:27 GMT by mail.irica.co (squid/3.5.12)</p>
+<!-- ERR_INVALID_URL -->
+</div>
+</body></html>
