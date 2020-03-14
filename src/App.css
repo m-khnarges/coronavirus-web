@@ -1,3 +1,44 @@
+:root {
+  box-sizing: border-box;
+  font-family: Vazir;
+}
+
+*,
+::before,
+::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: auto;
+  -webkit-font-smoothing: antialiased;
+  scroll-snap-coordinate: 0 0;
+  scroll-snap-type: mandatory;
+  -webkit-overflow-scrolling: touch;
+  user-select: none;
+  overflow: hidden;
+  position: fixed !important;
+  overscroll-behavior-x: none !important;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+#root {
+  position: relative;
+  touch-action: manipulation;
+  -webkit-touch-callout: none;
+}
+
+html {
+  -webkit-tap-highlight-color:  rgba(255, 255, 255, 0);
+  -webkit-tap-highlight-color: transparent;
+  height: 100vh;
+  overflow: hidden;
+}
 .App {
   text-align: center;
 }
